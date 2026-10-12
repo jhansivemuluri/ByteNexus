@@ -143,7 +143,7 @@ npm run dev
 
 Open the local URL displayed by Vite.
 
-## 🔐 Environment Configuration
+##  Environment Configuration
 
 Configure required credentials in a local `.env` file using the variable names expected by the backend.
 
