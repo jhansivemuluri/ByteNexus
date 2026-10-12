@@ -1,10 +1,10 @@
-# 🛡️ DigiShield — Digital Risk Protection Platform
+#  DigiShield — Digital Risk Protection Platform
 
 **AI-Powered Brand Protection | Social Profile Detection | Application Impersonation Analysis**
 
 DigiShield is an AI-assisted platform designed to identify potential brand impersonation, analyze suspicious social profiles, compare logos, and support threat investigation through Generative AI.
 
-## 🎯 Key Features
+##  Key Features
 
 - **User Authentication:** Registration and login through FastAPI.
 - **Brand Management:** Maintain official brand and identity information.
@@ -14,7 +14,7 @@ DigiShield is an AI-assisted platform designed to identify potential brand imper
 - **Results & Review:** Centralize findings for investigation and review.
 - **Modular Architecture:** Separate frontend, backend, database, and detection logic.
 
-## 🧰 Technology Stack
+##  Technology Stack
 
 - **Frontend:** React, Vite, JavaScript, CSS
 - **Backend:** Python, FastAPI
@@ -25,7 +25,7 @@ DigiShield is an AI-assisted platform designed to identify potential brand imper
 - **API Documentation:** OpenAPI / Swagger UI
 - **Version Control:** Git and GitHub
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```mermaid
 flowchart TD
@@ -66,7 +66,7 @@ flowchart TD
 4. **Data Layer:** MongoDB stores application data and findings.
 5. **AI Layer:** Gemini generates contextual analysis for supported findings.
 
-## 🔍 Detection Workflow
+##  Detection Workflow
 
 1. Maintain official brand information.
 2. Evaluate available candidate profiles and logo assets.
@@ -75,7 +75,7 @@ flowchart TD
 5. Request AI-assisted analysis when needed.
 6. Review evidence and decide on appropriate action.
 
-## 🔄 Development Phases
+##  Development Phases
 
 - **Phase 1 — Foundation:** React frontend, FastAPI backend, authentication, and MongoDB integration.
 - **Phase 2 — Detection:** Brand management, fuzzy profile matching, and logo comparison.
@@ -83,7 +83,7 @@ flowchart TD
 - **Phase 4 — Live Monitoring (Planned):** Integration with authorized social-platform and application data sources.
 - **Phase 5 — Advanced AI (Planned):** Transformer embeddings, neural-network-based risk classification, and CNN-based visual similarity detection.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 ByteNexus/
@@ -111,7 +111,7 @@ ByteNexus/
 └── README.md
 ```
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -154,7 +154,7 @@ GEMINI_API_KEY=your_gemini_api_key
 
 Never commit API keys, database credentials, or other secrets to GitHub.
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - **Live Threat Monitoring:** Authorized external API integrations and scheduled scans.
 - **Transformers:** Semantic matching of profile descriptions and brand-related content.
@@ -163,12 +163,15 @@ Never commit API keys, database credentials, or other secrets to GitHub.
 - **Multimodal Detection:** Combine text, image, and metadata signals.
 - **Production Readiness:** Audit logs, role-based access, automated testing, and deployment.
 
-## 👥 Project Information
+##  Project Information
 
 - **Project:** DigiShield — Digital Risk Protection Platform
 - **Repository:** [ByteNexus on GitHub](https://github.com/jhansivemuluri/ByteNexus)
 - **Focus:** AI-assisted brand protection and digital identity risk analysis
-
+## Team Mates 
+- SALMA SHAIK
+- YAMINI KRISHNAMANENI
+- CHITRA LALITHA DEVU KAKUMANU
 ---
 
 *Detect potential risks. Investigate with context. Protect digital identity with intelligence.*
