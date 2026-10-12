@@ -1,20 +1,25 @@
 
-# Backend secrets and virtual environment
+# Backend secrets and environment files
 backend/.env
-backend/.venv/
+.env
+.env.*
+!.env.example
 
-# Other environment folders
+# Python virtual environments
+backend/.venv/
 .venv/
 venv/
 
 # Python cache files
 __pycache__/
-*.pyc
-*.pyo
-
-# Environment secrets
-.env
-.env.*
+*.py[cod]
 
 # Test cache
 .pytest_cache/
+
+# Backup files
+*.backup
+
+# Local system files
+.DS_Store
+Thumbs.db
