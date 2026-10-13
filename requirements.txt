@@ -1,0 +1,12 @@
+@"
+fastapi
+uvicorn[standard]
+python-dotenv
+google-genai
+pymongo
+dnspython
+email-validator
+pwdlib[argon2]
+PyJWT
+python-multipart
+"@ | Set-Content requirements.txt
