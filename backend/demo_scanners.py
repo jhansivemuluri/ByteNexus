@@ -2,7 +2,7 @@
 import sys
 import re
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent
 SOCIAL_DIR = ROOT / "social_monitoring" / "social_monitoring"
 APP_DIR = ROOT / "app_monitoring" / "app_monitoring" / "app_monitoring"
 
