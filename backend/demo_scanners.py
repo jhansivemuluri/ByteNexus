@@ -1,8 +1,8 @@
-﻿from pathlib import Path
+from pathlib import Path
 import sys
 import re
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 SOCIAL_DIR = ROOT / "social_monitoring" / "social_monitoring"
 APP_DIR = ROOT / "app_monitoring" / "app_monitoring" / "app_monitoring"
 
@@ -11,7 +11,8 @@ for folder in (str(SOCIAL_DIR), str(APP_DIR)):
         sys.path.insert(0, folder)
 
 from detection import compare_profile_names
-from app_monitoring.app_monitoring.app_monitoring.app_scanner import scan_app
+from app_scanner import scan_app
+
 
 def run_social_demo(brand):
     official_name = (brand.get("official_name") or "").strip()
