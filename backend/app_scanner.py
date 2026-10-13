@@ -1,4 +1,9 @@
+import sys
+from pathlib import Path
 
+LOGO_DIR = Path(__file__).resolve().parent / "app_monitoring" / "app_monitoring" / "app_monitoring"
+if str(LOGO_DIR) not in sys.path:
+    sys.path.insert(0, str(LOGO_DIR))
 from rapidfuzz import fuzz
 from pathlib import Path
 
