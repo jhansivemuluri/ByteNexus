@@ -11,7 +11,7 @@ for folder in (str(SOCIAL_DIR), str(APP_DIR)):
         sys.path.insert(0, folder)
 
 from detection import compare_profile_names
-from app_scanner import scan_app
+from app_monitoring.app_monitoring.app_monitoring.app_scanner import scan_app
 
 
 def run_social_demo(brand):
